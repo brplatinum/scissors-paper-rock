@@ -19,6 +19,15 @@ body {
     box-shadow: 0.5px 0.5px 1px #040404;
 }
 
+#reset{
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    bottom: 37px;
+    right: 50px;
+    position: absolute;
+}
+
 .backboard {
     width: 1600px;
     height: 350px;
@@ -35,6 +44,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 0.5px 0.5px 1px #040404;
     box-shadow: 0.5px 0.5px 1px #040404;
+    position: relative;
 }
 
 .scoreboard{
@@ -45,13 +55,68 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.player{
+#player{
     position: absolute;
-    left: 200px;
-    
+    left: 50px;
+    transition: 1s;
 }
 
-.cpu {
+#cpu {
     position: absolute;
-    right: 200px;
+    right: 50px;
+    transition: 1s;
 }
+
+.winner {
+    color: green;
+    transition: 1s;
+}
+
+.loser {
+    color: red;
+    transition: 1s;
+}
+
+.playerChoice{
+    position: absolute;
+    left: 51px;
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.cpuChoice {
+    position: absolute;
+    right: 51px;
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.gameover {
+    width: 700px;
+    height: 125px;
+    background: #0d20e8; /* Old browsers */
+    background: -moz-linear-gradient(left, #0d20e8 0%, #9f37ef 96%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0d20e8 0%,#9f37ef 96%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0d20e8 0%,#9f37ef 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d20e8', endColorstr='#9f37ef',GradientType=1 ); /* IE6-9 */
+    border-radius: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0.5px 0.5px 1px #040404;
+    box-shadow: 0.5px 0.5px 1px #040404;
+    position: relative;
+}
+
+.victory {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 37px;
+    left: 50px;
+}
+
