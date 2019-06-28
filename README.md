@@ -1,8 +1,9 @@
-A game of Scissors, Paper, Rock played in the console.
+# Scissors, Paper, Rock
+A game of Scissors, Paper, Rock. Begin by pressing either Scissors, Paper or Rock.
 
-Learning outcomes:
-- How to get user inputs in JS
-- How  to use functions in JS
-- Variable scope in JS
+## What I Learned
+* How to get user inputs in JS.
+* How  to use functions in JS.
+* Variable scope in JS.
 
-Thank you to The Odin Project.
+
